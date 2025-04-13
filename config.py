@@ -40,6 +40,7 @@ FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002249144915"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
+START_PIC = os.environ.get("START_PIC","https://i.ibb.co/KcCkXZBj/x.jpg")
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files of Anime beast tamil and other users can access it from special link.")
 try:
     ADMINS=[5326198063]
